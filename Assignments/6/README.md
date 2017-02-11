@@ -36,7 +36,7 @@
 * You can either develop your own program or use Keras. If you want to use any other library or libraries please ask Jason or me before you do so.   
  
 <br/><br/>Data sets:
-* Three data sets are provided. 
+<br/>Three data sets are provided. 
 * The first data set includes 20000 images.  
 * The second data set includes 2000 images.
 * Third data set includes 100 images.
