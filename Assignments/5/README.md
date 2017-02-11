@@ -1,13 +1,43 @@
-#Assignment 02 (Due date: Sept. 20, 2016)
+#Assignment 02 (Due date: Nov. 13, 2016)
 #Neural Networks
-#Due date: Sept. 20, 2016
+#Due date: Nov. 13, 2016
 
 
-#The purpose of the this assignment is to practice with Perceptron learning rule.
+<br/>The purpose of the this assignment is to practice with back-propagation neural networks.
  
-Download and run the Python source code which is provided here.
-Currently the "Adjust Weights (Learn)" button is not doing anything. Modify the code such that each time that this button is pressed the Perceptron learning rule is applied and the screen is updated accordingly.
-Notes:
-Only modify "adjust_weights(...)" in the ClNeuralNetwork class.
-Do not modify any other part of the code.
-Make sure that you follow the submission guidelines to submit your code to Blackboard
+<br/>Implement a fully-connected back-propagation network:
+<br/>Your network should include one hidden layer with N nodes and one output layer with 10 nodes.
+ 
+<br/><br/>Task 1:
+* Using Theano implement a fully connected network with 100 nodes in the hidden layer and 10 nodes in the output layer.
+* Use Relu activation function for all the nodes.
+* Use softmax as the loss function.
+* Train your network for 200 epochs.
+<br/><br/>Write a report which includes:
+* Graph of the loss function and the error rate while training  (screen capture). Note that you should only use the training set for this step. Do not use the test set.
+* Display the confusion matrix after the training is completed (screen capture). Use the test set for this step.
+ 
+<br/><br/>Task 2:
+* Change the activation functions for all the nodes in task 1 to sigmoid and repeat the process.
+ 
+<br/><br/>Task 3:
+* Change the number of nodes in the hidden layer in the neural network that you implemented in task 1 to 100, 200, 300, 400 , 500 and plot the error rate for each case vs the number of hidden nodes.
+ 
+<br/><br/>Task 4:
+* Set the number of nodes in the hidden layer to 500 and repeat the experiment in task 1 and apply weight regularization. 
+* Use the lambda for the weight regularization to be 0.1, 0.2, 0.3, 0.4 0.5. 
+* Train the neural network with the training data with each lambda. 
+* Calculate and show the confusion matrix for each lambda using the test set.
+ 
+<br/><br/>Task 5:
+* Select the best architecture with the best hyper-parameters and train your network using the second data set. and write a report which includes:
+* Graph of the loss function and the error rate while training  (screen capture). Note that you should only use the training set for this step. Do not use the test set.
+* Display the confusion matrix after the training is completed (screen capture). Use the test set for this step.
+ 
+<br/><br/>Notes:
+* For this assignment you should submit your code(s) as well as a report. Submit your report and your source code(s) as a single zip file.   
+ 
+<br/><br/>Data sets:
+* Two data sets are provided. Each data set includes images from 10 different classes:
+* The first data set includes 100 images from each class for training and 10 images from each class for testing.  
+* The second data set includes 1000 images from each class for training and 100 images from each class for testing.
