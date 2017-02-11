@@ -2,7 +2,6 @@
 #Neural Networks
 #Due date: Sept. 20, 2016
 
-
 #The purpose of the this assignment is to practice with Perceptron learning rule.
 <br/>Download and run the Python source code which is provided here.
 <br/>Currently the "Adjust Weights (Learn)" button is not doing anything. Modify the code such that each time that this button is pressed the Perceptron learning rule is applied and the screen is updated accordingly.
