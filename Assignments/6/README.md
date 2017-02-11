@@ -1,13 +1,42 @@
-#Assignment 02 (Due date: Sept. 20, 2016)
+#Assignment 06 (Due date: Dec. 4, 2016)
 #Neural Networks
-#Due date: Sept. 20, 2016
+#Due date: Dec. 4, 2016
 
 
-#The purpose of the this assignment is to practice with Perceptron learning rule.
+<br/>The purpose of the this assignment is to practice with auto-encoder neural networks.
  
-Download and run the Python source code which is provided here.
-Currently the "Adjust Weights (Learn)" button is not doing anything. Modify the code such that each time that this button is pressed the Perceptron learning rule is applied and the screen is updated accordingly.
-Notes:
-Only modify "adjust_weights(...)" in the ClNeuralNetwork class.
-Do not modify any other part of the code.
-Make sure that you follow the submission guidelines to submit your code to Blackboard
+<br/>Implement a fully-connected auto-encoder network:
+<br/>Your network should include one hidden layer with N nodes and one output layer.
+ 
+<br/><br/>Task 1:
+* Implement a fully connected auto-encoder network with 100 nodes in the hidden layer.
+* Use Relu activation function for all the hidden layer nodes.
+* Use linear activation function for the output layer.
+* Use MSE as performance function.
+* Using the first data set, train your network for 50 epochs.
+* After each epoch calculate MSE for the first data set (the set that you used for training).
+* After each epoch calculate MSE for the second data set.
+* Write a report which includes a graph of the two MSEs vs epoch number. The first MSE should be calculated using the first data set and the second MSE should be calculated using the second data set. Below is an example of how your output should like. You must include the tick values for horizontal and vertical axes.
+
+<br/><br/>Task 2:
+* Change the number of nodes in the hidden layer in the auto-encoder neural network that you implemented in task 1 to 20, 40, 60, 80, and 100. Train each case with the first data set. Plot the MSEs for both the first and second data set vs the number of nodes in the hidden layer. Below is an example of how your output should like. You must include the tick values for horizontal and vertical axes.
+
+<br/><br/>Task 3:
+* Set the number of nodes in the hidden layer to 100, train the network for 100 epochs and display the learned weights as a grid of 10 by 10 images (Screen capture). Do not include the bias as part of your display. Below is an example of how your display should look like
+
+<br/><br/>Task 4:
+* Display the 100 images in the third data set on a grid of 10 by 10. Pass these images through the network which was trained in the task 3 and display the output on a 10 by 10 grid (screen capture of both grids). Below is a general format of the displayed grids.
+
+<br/><br/>Task 5:
+* Pass the images in the second data set through the network which was trained in the task 3. Perform a PCA on the input and output images and display the first top 100 Eigen vectors for input and output images on a 10 by 10 grid. Below is a general format of the displayed grid.
+
+<br/><br/>Notes:
+* For this assignment you should submit your code(s) as well as a report. 
+* Submit your report and your source code(s) as a single zip file.
+* You can either develop your own program or use Keras. If you want to use any other library or libraries please ask Jason or me before you do so.   
+ 
+<br/><br/>Data sets:
+* Three data sets are provided. 
+* The first data set includes 20000 images.  
+* The second data set includes 2000 images.
+* Third data set includes 100 images.
