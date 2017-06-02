@@ -1,9 +1,6 @@
-#Assignment 06 (Due date: Dec. 4, 2016)
-#Neural Networks
-#Due date: Dec. 4, 2016
+# Assignment 06 (Due date: Dec. 4, 2016)
 
-
-<br/>The purpose of the this assignment is to practice with auto-encoder neural networks.
+<h2>The purpose of the this assignment is to practice with auto-encoder neural networks.</h2>
  
 <br/>Implement a fully-connected auto-encoder network:
 <br/>Your network should include one hidden layer with N nodes and one output layer.
