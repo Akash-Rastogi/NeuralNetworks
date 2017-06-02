@@ -1,8 +1,6 @@
-#Assignment 04 (Due date: Oct. 16, 2016)
-#Neural Networks
-#Due date: Oct. 16, 2016
+# Assignment 04 (Due date: Oct. 16, 2016)
 
-#The purpose of the this assignment is to practice with Widrow-Huff learning and adaptive filters.
+<h2>The purpose of the this assignment is to practice with Widrow-Huff learning and adaptive filters.</h2>
  
 * Write a program to predict the price and the volume of a stock
 * Apply the LMS algorithm
