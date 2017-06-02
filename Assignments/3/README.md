@@ -1,6 +1,4 @@
-#Assignment 03 (Due date: Sept. 29, 2016)
-#Neural Networks
-#Due date: Sept. 29, 2016
+# Assignment 03 (Due date: Sept. 29, 2016)
 
 <br/>The purpose of the this assignment is to practice with Hebbian learning rules.
  
