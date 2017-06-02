@@ -2,8 +2,6 @@
 #Neural Networks
 #Due date: Sept. 29, 2016
 
-#The purpose of the this assignment is to practice with Widrow-Huff learning and adaptive filters.
- 
 <br/>The purpose of the this assignment is to practice with Hebbian learning rules.
  
 <br/>Modify the program in previous assignment such that:
