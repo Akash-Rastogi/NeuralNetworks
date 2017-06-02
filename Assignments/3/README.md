@@ -1,7 +1,7 @@
 # Assignment 03 (Due date: Sept. 29, 2016)
 
-<br/><h2>The purpose of the this assignment is to practice with Hebbian learning rules.</h2>
- 
+<h2>The purpose of the this assignment is to practice with Hebbian learning rules.</h2>
+
 <br/>Modify the program in previous assignment such that:
 * You can read the mnist data set as input
 * Create a button to select one of the three Hebbian rules from your textbook, i.e. "Filtered Learning", "Delta Rule", or "Unsupervised Hebb".
