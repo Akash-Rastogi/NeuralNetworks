@@ -1,6 +1,6 @@
 # Assignment 03 (Due date: Sept. 29, 2016)
 
-<br/>The purpose of the this assignment is to practice with Hebbian learning rules.
+<br/><h2>The purpose of the this assignment is to practice with Hebbian learning rules.</h2>
  
 <br/>Modify the program in previous assignment such that:
 * You can read the mnist data set as input
