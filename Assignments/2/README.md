@@ -1,6 +1,4 @@
 # Assignment 02 (Due date: Sept. 20, 2016)
-# Neural Networks
-# Due date: Sept. 20, 2016
 
 # The purpose of the this assignment is to practice with Perceptron learning rule.
 * Download and run the Python source code which is provided here.
