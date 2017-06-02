@@ -1,6 +1,4 @@
 # Assignment 01 (Due date: Sept. 8, 2016)
-# Neural Networks
-# Due date: Sept. 8, 2016
 
 # The purpose of the this assignment is to give you a starting point and a framework for your future assignments.
 
