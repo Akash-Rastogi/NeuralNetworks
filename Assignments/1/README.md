@@ -1,6 +1,6 @@
 # Assignment 01 (Due date: Sept. 8, 2016)
 
-# The purpose of the this assignment is to give you a starting point and a framework for your future assignments.
+<h2>The purpose of the this assignment is to give you a starting point and a framework for your future assignments.</h2>
 
 * Download and run the Python source code which is provided here.
 * Modify the code to include two more activation functions, i.e. Hyperbolic Tangent,  and Positive linear.
